@@ -6,4 +6,4 @@ t = 0:.02:12;
 c = -pl*step(num, den, t);
 plot(t, c),grid
 xlabel("t, sec"), ylabel("pu")
-title("Frequency response")
+title("Frequency Response")
